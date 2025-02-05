@@ -1,0 +1,155 @@
+/* General Styling */
+body, html {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #0a0219, #1b0036);
+    color: white;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navbar - Stays at the top */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    width: 100%;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #b39ddb;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.try-free {
+    background: #8a6eff;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* Hero Section - Centered in the Middle */
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.hero-section h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero-section .highlight {
+    color: #8a6eff;
+}
+
+.brand-name {
+    font-size: 40px;
+    font-weight: bold;
+    color: #b39ddb;
+    margin-bottom: 30px;
+}
+
+/* Chat Input Box */
+.chat-input-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e0e0e0;
+    width: 60%;
+    margin: 20px auto;
+    padding: 12px;
+    border-radius: 50px;
+}
+
+.plus-icon {
+    font-size: 18px;
+    color: gray;
+    padding: 10px;
+}
+
+.chat-input-box input {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    color: black; /* Ensures user input text is black */
+}
+
+.chat-input-box input::placeholder {
+    color: gray;
+}
+
+.generate-btn {
+    background: #8a6eff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.generate-btn:hover {
+    background: #7c5ce8;
+}
+
+/* Footer - Fixed at Bottom */
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #ccc;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* Footer Social Icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.icon {
+    font-size: 20px;
+    cursor: pointer;
+}
